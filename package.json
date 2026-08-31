@@ -1,0 +1,17 @@
+{
+  "name": "sdet-practical-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SDET practical assignment - Playwright UI and API contract automation",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui/tests",
+    "test:api": "playwright test tests/api/tests",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "ajv": "^8.17.1",
+    "typescript": "^5.8.3"
+  }
+}
